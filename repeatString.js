@@ -19,5 +19,15 @@ repeat("ping", 0)
 repeat("hey", -2)
 
 
+//------------Sum Function------------
+var sum =0;
+function number(num){
+    for(var i = 1; i <=num; i++){
+        sum = sum + num
+    }
+    console.log(sum);
+}
+number(4)
+
 
 
